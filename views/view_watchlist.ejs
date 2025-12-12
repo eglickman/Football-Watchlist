@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drafted Players List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Watchlist Players Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Team</th>
+                    <th>Position</th>
+                    <th>Background Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% if (players.length === 0) { %>
+                    <tr>
+                        <td colspan="3">No players added yet.</td>
+                    </tr>
+                <% } else { %>
+                    <% players.forEach(p => { %>
+                        <tr>
+                            <td><%= p.playerName %></td>
+                            <td><%= p.team %></td>
+                            <td><%= p.position %></td>
+                            <td><%= p.backgroundInfo %></td>
+                        </tr>
+                    <% }); %>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <form method="post" action="/clear">
+        <li>To clear your watchlist: 
+        <button class="redbutton" type="submit" id="submit">Clear</button>
+        </li>
+    </form>
+    
+    <li>To go home: <button class="homebutton"><a href="/">Home</a></button></li>
+</body>
+</html>
+
+<script>
+	document.getElementById("submit").onclick = () => {
+        let text = "Are you sure you want to clear the watchlist?\n"
+        text += "You will not be able to undo this action."
+		return window.confirm(text);
+    }
+</script>
