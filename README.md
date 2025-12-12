@@ -2,7 +2,7 @@
 
 Submitted by: Ethan Glickman (118880518)
 
-Group Members: Ethan Glickman (118880518), Eric Hay (118614632), Remy Eidelman (11962480)
+Group Members: Ethan Glickman (118880518), Eric Hay (118614632), Remy Eidelman (119652480)
 
 App Description: An app for creating a watchlist of athletes. You can add players to your watchlist, view the watchlist, and clear it.
 
