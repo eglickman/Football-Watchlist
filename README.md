@@ -1,13 +1,13 @@
 # Football Scout App
 
-Submitted by: Name, ID
-Group Members: NAmes, IDs
-App Description: A simple app to search for NFL players using an API and save them to a MongoDB database with notes.
+Submitted by: Ethan Glickman (118880518)
+Group Members: Ethan Glickman (118880518), Eric Hay (118614632), Remy Eidelman (11962480)
+App Description: An app for creating a watchlist of athletes. You can add players to your watchlist, view the watchlist, and clear it.
 
 YouTube Video Demo Link: 
 
 APIs Information: TheSportsDB (https://www.thesportsdb.com/api.php)  
 
-Contact Email:  
+Contact Email:  eglickma@umd.edu, ehay@terpmail.umd.edu, remyeid@umd.edu
 
-Deployed App Link: 
+Deployed App Link: https://football-watchlist.onrender.com/
