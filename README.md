@@ -6,7 +6,7 @@ Group Members: Ethan Glickman (118880518), Eric Hay (118614632), Remy Eidelman (
 
 App Description: An app for creating a watchlist of athletes. You can add players to your watchlist, view the watchlist, and clear it.
 
-YouTube Video Demo Link: 
+YouTube Video Demo Link: https://www.youtube.com/watch?v=vMjv7PkR0WA
 
 APIs Information: TheSportsDB (https://www.thesportsdb.com/api.php)  
 
